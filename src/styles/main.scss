@@ -1,3 +1,5 @@
+// IMPORTS
+
 // Import variables and partials
 @import '_variables'; // Define your Sass variables here
 
@@ -7,19 +9,125 @@
 // Importing any third-party libraries or frameworks
 @import 'normalize.css'; // Normalize.css to reset browser styles (if needed)
 
-// Global styles
-html {
-  box-sizing: border-box;
+
+
+
+
+// Global styles / Base Styles
+
+
+// FONTS
+/* Font 1 - Butler-Stencil */
+@font-face {
+  font-family: 'ButlerStencil'; /* Give it a unique name */
+  src: url('../assets/fonts/Butler_Stencil_Webfont/ButlerStencil.woff2') format('woff2'),
+       url('../assets/fonts/Butler_Stencil_Webfont/ButlerStencil.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+
+/* Font 2 - Butler */
+@font-face {
+  font-family: 'Butler'; /* Give it a unique name */
+  src: url('../assets/fonts/Butler_Webfont/Butler.woff2') format('woff2'),
+       url('../assets/fonts/Butler_Webfont/Butler.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-butlerstencil {
+  font-family: 'ButlerStencil', sans-serif; /* Use Font 1 */
+}
+
+.text-butler {
+  font-family: 'Butler', sans-serif; /* Use Font 2 */
+}
+
+
+
+
+
+// Other Base stuff
+* {
   margin: 0;
   padding: 0;
+}
 
-  // Add more global styles as needed
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10px/16px
+  
+  // Media query stuff will go here
+
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: $color-grey-1;
+  font-family: 'Butler', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
-// You can define other global styles here
+
+
+
+
+// .rellax {
+//   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+
+//   @media only screen and (max-width: $bp-largest) {
+//       transition: none;
+//   }
+// }
+
+
+//CUSTOM HIGHLIGHT
+::selection {
+  background: $color-white;
+  color: $color-grey-1;
+}
+::-moz-selection {
+  background: $color-white;
+  color: $color-grey-1;
+}
+
+// //CUSTOM SCROLL-BAR
+// /* width */
+// ::-webkit-scrollbar {
+//   width: 1rem;
+// }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background: #080016;
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background-image: linear-gradient(to bottom, #001a14 , #00cfa9);
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background-image: linear-gradient(to bottom, #008b72 , #18ffd5);
+// }
+
+// ::-webkit-scrollbar-thumb:active {
+//   background-image: linear-gradient(to bottom, #001a14 , #007761);
+// }
