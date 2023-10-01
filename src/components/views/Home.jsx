@@ -26,7 +26,7 @@ function Home() {
     const angle = Math.atan2(event.clientY - pointerCenterY, event.clientX - pointerCenterX);
 
     // Rotate the 'pointer' image
-    pointerRef.current.style.transform = `rotate(${angle}rad)`;
+    pointerRef.current.style.transform = `rotate(${angle}rad) translate(-50%, -50%)`;
   };
 
   // Add event listeners to update the rotation when the mouse moves
