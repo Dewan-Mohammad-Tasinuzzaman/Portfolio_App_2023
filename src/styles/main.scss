@@ -2,12 +2,15 @@
 
 // Import variables and partials
 @import '_variables'; // Define your Sass variables here
+@import '_utils';
 
 // Component-specific styles
 @import 'components/nav';
+@import 'components/views/home';
 
 // Importing any third-party libraries or frameworks
 @import 'normalize.css'; // Normalize.css to reset browser styles (if needed)
+@import '~font-awesome/scss/font-awesome.scss';
 
 
 
@@ -171,6 +174,7 @@ body {
   position: relative;
   overflow-x: hidden;
   background-color: $color-grey-1;
+  color: $color-white;
   font-family: 'Butler', sans-serif;
   font-weight: 200; // 200 = UltraLight, Light = 300, Normal = Regular, 500 = Medium
   font-size: 1.6rem;
@@ -194,6 +198,8 @@ a {
 //       transition: none;
 //   }
 // }
+
+
 
 
 //CUSTOM HIGHLIGHT
