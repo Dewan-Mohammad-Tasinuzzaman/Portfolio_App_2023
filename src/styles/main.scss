@@ -1,0 +1,20 @@
+// Import variables and partials
+@import '_variables'; // Define your Sass variables here
+
+// Component-specific styles
+@import 'components/nav';
+
+// Importing any third-party libraries or frameworks
+@import 'normalize.css'; // Normalize.css to reset browser styles (if needed)
+
+// Global styles
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  // Add more global styles as needed
+}
+
+
+// You can define other global styles here
