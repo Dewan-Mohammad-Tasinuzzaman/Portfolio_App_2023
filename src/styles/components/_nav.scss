@@ -1,3 +1,6 @@
+@import '../utils';
+@import '../variables';
+
 
 .navigation {
 
@@ -6,6 +9,8 @@
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
+    box-shadow: 0px 4px 5px #00000029;
+    border-radius: 4rem;
     z-index: 4;
 
     &__list {
