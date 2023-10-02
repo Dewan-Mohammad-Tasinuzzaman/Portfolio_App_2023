@@ -1,0 +1,22 @@
+
+
+@keyframes blinking {
+    0% {
+        background-color: #1212124d;
+    }
+
+    100% {
+        background-color: #121212de;
+    }
+}
+
+
+
+@keyframes pulsating {
+    0% {
+        outline: 0px solid rgba(255, 255, 255, 0.200);
+    }
+    100% {
+        outline: 40px solid rgba(255, 255, 255, 0.200);
+    }
+}

@@ -41,7 +41,7 @@ function About() {
 
 
             <ParallaxLayer
-                speed={1}>
+                speed={1.5}>
                 <div className="about__containerOne">
                     <h1 className="about__heading-01 text-butlerstencil">About</h1>
                 </div>

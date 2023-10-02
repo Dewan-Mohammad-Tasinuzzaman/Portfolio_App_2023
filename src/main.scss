@@ -1,18 +1,19 @@
 // IMPORTS
 
-// Import variables and partials
-@import 'styles/variables'; // Define your Sass variables here
+// Helpers
+@import 'styles/variables';
 @import 'styles/utils';
+@import 'styles/animations';
 
 // Component-specific styles
 @import 'styles/components/nav';
 @import 'styles/components/buttons';
+@import 'styles/components/project';
+
+// Pages
 @import 'styles/components/views/home';
 @import 'styles/components/views/about';
-
-// Importing any third-party libraries or frameworks
-//@import '~font-awesome/scss/font-awesome.scss';
-
+@import 'styles/components/views/projectsPage';
 
 
 
@@ -136,6 +137,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
 
 
 
