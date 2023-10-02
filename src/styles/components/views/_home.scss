@@ -15,6 +15,9 @@
         left: 0;
         height: 100vh;
         width: 100vw;
+        background-image: url(../../../assets/photos/about_photo-desktop.jpg);
+        background-size: cover;
+        background-position: center top;
 
 
         &_triangles {
@@ -33,7 +36,7 @@
         left: 0;
         height: 100vh;
         width: 100vw;
-        backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
+        backdrop-filter: blur(11px); /* Adjust the blur amount as needed */
     }
 
     &__content {
