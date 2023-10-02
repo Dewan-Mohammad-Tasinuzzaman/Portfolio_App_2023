@@ -4,6 +4,7 @@ import Home from './components/views/Home';
 import About from './components/views/About'; // Import the About component
 import Nav from './components/navigation/Nav';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './main.scss';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Routes>
           {/* Define routes here */}
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} /> {/* Remove ParallaxProvider */}
         </Routes>
 
         {/* Bottom Nav Bar - Fixed - Stays on Every Page */}

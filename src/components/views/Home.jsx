@@ -1,7 +1,6 @@
 // Home.jsx
 
 import React, { useRef, useEffect } from 'react';
-import '../../styles/main.scss';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
