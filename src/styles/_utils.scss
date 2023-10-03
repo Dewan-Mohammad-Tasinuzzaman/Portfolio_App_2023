@@ -25,8 +25,46 @@
 // FONTS
 .text-butlerstencil {
     font-family: 'Butler Stencil', sans-serif; /* Use Font 1 */
-  }
+}
   
-  .text-butler {
-    font-family: 'Butler', sans-serif; /* Use Font 2 */
-  }
+.text-butler {
+font-family: 'Butler', sans-serif; /* Use Font 2 */
+}
+
+
+
+
+
+// Socials - Color and Hover
+.instagram_hoverClass {
+    
+    transition: all .4s ease-out;
+
+    &:hover {
+        color: $color-instagram !important;
+    }
+}
+.facebook_hoverClass {
+    
+    transition: all .4s ease-out;
+
+    &:hover {
+        color: $color-facebook !important;
+    }
+}
+.linkedin_hoverClass {
+    
+    transition: all .4s ease-out;
+
+    &:hover {
+        color: $color-linkedin !important;
+    }
+}
+.dribble_hoverClass {
+    
+    transition: all .4s ease-out;
+
+    &:hover {
+        color: $color-dribble !important;
+    }
+}

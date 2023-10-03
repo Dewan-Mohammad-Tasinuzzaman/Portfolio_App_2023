@@ -1,10 +1,11 @@
 import React, {useRef, useEffect} from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import ImageOne from '../../assets/photos/about_photo-desktop.jpg';
+import ImageOne from '../../assets/photos/about_photo-desktop_edit.jpg';
 import Resume from '../../assets/files/Resume_Dewan_Mohammad_Tasinuzzaman.pdf';
 
 function About() {
 
+    const currentYear = new Date().getFullYear();
 
     const imageContainerRef = useRef(null);
 
@@ -60,7 +61,7 @@ function About() {
                 speed={1}
                 offset={1}>
                 <div className="about__containerOne">
-                    <h1 className="about__heading-end text-butlerstencil">Dewan Mohammad Tasinuzzaman 2023</h1>
+                    <h1 className="about__heading-end text-butlerstencil">Dewan Mohammad Tasinuzzaman {currentYear}</h1>
                 </div>
             </ParallaxLayer>
 

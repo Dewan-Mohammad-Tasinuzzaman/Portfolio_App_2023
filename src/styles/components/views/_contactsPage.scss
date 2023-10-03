@@ -1,0 +1,103 @@
+@import '../../utils';
+@import '../../variables';
+@import '../../animations';
+
+
+
+.contactsPage {
+
+
+    &__containerOne {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-white;
+
+
+        &_content {
+
+            font-size: 2.2rem;
+            color: rgb(50, 50, 50);
+            letter-spacing: 2.5px;
+            font-weight: 400;
+            margin-bottom: 8rem;
+
+            &-header {
+                text-align: center;
+                font-weight: 200;
+                color: #252525;
+                font-size: 7rem;
+                letter-spacing: 5px;
+            }
+
+            &-linksBox {
+
+                &--link {
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    margin-top: 10rem;
+                    padding-bottom: 5rem;
+                    margin-bottom: 5rem;
+                    border-bottom: 1px solid #b0b0b0;
+                    color: rgb(50, 50, 50);;
+                    transition: all .2s ease-out;
+
+                    &:hover {
+                        color: rgb(77, 77, 77);
+                    }
+
+                    &---icon {
+                        margin-right: 1.5rem;
+                        height: 3.5rem;
+                        width: auto;
+                    }
+
+                    &---text {
+
+                    }
+                }
+
+                &--socialsBox {
+
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    
+
+                    &---link {
+
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+
+                        
+                        &:not(:last-child) {
+                            margin-right: 3.5rem;
+                        }
+
+                        &----icon {
+                            margin-right: 1.5rem;
+                            height: 3.5rem;
+                            width: auto;
+                        }
+    
+                        &----text {
+    
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

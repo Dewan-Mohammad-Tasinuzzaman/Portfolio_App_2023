@@ -2,7 +2,7 @@
 
 @keyframes blinking {
     0% {
-        background-color: #1212124d;
+        background-color: #12121270;
     }
 
     100% {
@@ -18,5 +18,23 @@
     }
     100% {
         outline: 40px solid rgba(255, 255, 255, 0.200);
+    }
+}
+@keyframes pulsatingDark {
+    0% {
+        outline: 0px solid rgba(73, 73, 73, 0.303);
+    }
+    100% {
+        outline: 40px solid rgba(73, 73, 73, 0.303);
+    }
+}
+
+
+@keyframes floating_aboutPhoto {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    100% {
+        transform: scale(1.01) translateY(-20px);
     }
 }

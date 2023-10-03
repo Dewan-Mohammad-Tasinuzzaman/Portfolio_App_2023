@@ -8,11 +8,11 @@ function Project(props) {
           <img src={props.picture} alt="visual" className="project__picturebox_picture" />
         </div>
 
-        <div className="project__pictureBlurrer">
+        <div className={`project__pictureBlurrer ${props.customBlurrerStyling}`}>
           <h2 className="project__pictureBlurrer_header text-butlerstencil">{props.title}</h2>
         </div>
 
-        <div className="project__detailsContainer">
+        <div className={`project__detailsContainer ${props.pulserDarken}`}>
           <div className="project__details">
             <h2 className="project__details_title text-butlerstencil">{props.title}</h2>
             <p className="project__details_description">{props.description}</p>

@@ -54,10 +54,10 @@ function Nav() {
         </li>
         <li className='navigation__list_items'>
           <Link
-            title='Contact'
-            className={`navigation__list_items-links navigation__list_items-links--4 ${activeLink === '/contact' ? 'nav_active_page' : ''}`}
-            to="/contact"
-            onClick={() => handleLinkClick('/contact')}
+            title='Contacts'
+            className={`navigation__list_items-links navigation__list_items-links--4 ${activeLink === '/contacts' ? 'nav_active_page' : ''}`}
+            to="/contacts"
+            onClick={() => handleLinkClick('/contacts')}
           >
             <svg className='nav_icons contact_icon' width="36" height="50" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.98744 1.85693H31.6653C33.4994 1.85693 35.0001 3.35756 35.0001 5.19167V25.2001C35.0001 27.0342 33.4994 28.5348 31.6653 28.5348H4.98744C3.15334 28.5348 1.65271 27.0342 1.65271 25.2001V5.19167C1.65271 3.35756 3.15334 1.85693 4.98744 1.85693Z" stroke="#7B7B7B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

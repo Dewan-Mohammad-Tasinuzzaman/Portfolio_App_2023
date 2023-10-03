@@ -14,7 +14,7 @@
 @import 'styles/components/views/home';
 @import 'styles/components/views/about';
 @import 'styles/components/views/projectsPage';
-
+@import 'styles/components/views/contactsPage';
 
 
 
@@ -184,26 +184,14 @@ a {
 
 
 
-
-// .rellax {
-//   transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
-
-//   @media only screen and (max-width: $bp-largest) {
-//       transition: none;
-//   }
-// }
-
-
-
-
 //CUSTOM HIGHLIGHT
 ::selection {
-  background: $color-white;
-  color: $color-grey-1;
+  background: rgb(222, 222, 222);
+  color: black;
 }
 ::-moz-selection {
-  background: $color-white;
-  color: $color-grey-1;
+  background: rgb(222, 222, 222);
+  color: black;
 }
 
 // //CUSTOM SCROLL-BAR

@@ -147,3 +147,14 @@
 
     
 }
+
+// Helpers/CustomEffects
+.backgroundDarken {
+    //background-color: #12102441;
+    backdrop-filter: brightness(.6) blur(8px);
+}
+
+.pulserDarken {
+    background-color: rgba(73, 73, 73, 0.9);
+    animation: pulsatingDark 1.4s ease-in-out infinite alternate !important;
+}
