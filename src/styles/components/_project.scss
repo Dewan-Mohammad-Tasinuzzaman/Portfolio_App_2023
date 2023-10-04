@@ -149,10 +149,15 @@
 }
 
 // Helpers/CustomEffects
-.backgroundDarken {
-    //background-color: #12102441;
-    backdrop-filter: brightness(.6) blur(8px);
+
+// Blurr Layer
+.backgroundRedden01 {
+    background-color: #ad383c4f;
 }
+.backgroundYellow01 {
+    background-color: #96742a85;
+}
+
 
 .pulserDarken {
     background-color: rgba(73, 73, 73, 0.9);

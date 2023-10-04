@@ -11,7 +11,8 @@ function ProjectsPage() {
 
   const currentYear = new Date().getFullYear();
 
-  const customBlurrerStyling = 'backgroundDarken';
+  const customBlurrerStyling__red01 = 'backgroundRedden01';
+  const customBlurrerStyling__yellow01 = 'backgroundYellow01';
   const pulserDarken = 'pulserDarken';
 
   return (
@@ -45,13 +46,15 @@ function ProjectsPage() {
             speed={1.5}
             >
             <div className="projectsPage__containerProjects projectsPage__containerProjects_right projectsPage__containerProjects_second">
-              <Project                 
-                picture={PictureTwo}
-                title="Portfolio 2020"
-                description="This was the very first page I designed for myself in Photoshop and coded up so I can put eveything I had learned at the time to the test."
-                relevant="Vue.js , HTML, CSS/SCSS, JavaScript, Node.js, Photoshop, Illustrator"
-                link01="https://github.com/Dewan-Mohammad-Tasinuzzaman/Portfolio_Website_01" linkName01="Github"
-                link02="" linkName02="" />
+              <Project 
+                picture={PictureThree}
+                title="Applystart"
+                description="Worked with a team of 4 and built the entire UI for the React-App and Landing Page. Also configured and customized UI/UX templates using React.js to fit Applystart's needs."
+                relevant="React.js, Node.js, JavaScript, HTML, CSS/SCSS, Adobe Illustrator, Adobe Photoshop"
+                link01="https://applystart.com" linkName01="applystart.com"
+                link02="" linkName02=""
+                customBlurrerStyling={customBlurrerStyling__red01}
+                pulserDarken={pulserDarken} />
             </div>
         </ParallaxLayer>
 
@@ -59,15 +62,13 @@ function ProjectsPage() {
             speed={2}
             >
             <div className="projectsPage__containerProjects projectsPage__containerProjects_left projectsPage__containerProjects_third">
-              <Project 
-                picture={PictureThree}
-                title="Applystart"
-                description="Worked with a team of 4 and built the entire UI for the React-App and Landing Page. Also configured and customized UI/UX templates using React.js to fit Applystart's needs."
-                relevant="React.js, Node.js, JavaScript, HTML, CSS/SCSS/SASS, Adobe Illustrator, Adobe Photoshop"
-                link01="https://applystart.com" linkName01="applystart.com"
-                link02="" linkName02=""
-                customBlurrerStyling={customBlurrerStyling}
-                pulserDarken={pulserDarken} />
+              <Project                 
+                picture={PictureTwo}
+                title="Portfolio 2020"
+                description="This was the very first page I designed for myself in Photoshop and coded up so I can put eveything I had learned at the time to the test."
+                relevant="Vue.js , HTML, CSS/SCSS, JavaScript, Node.js, Photoshop, Illustrator"
+                link01="https://github.com/Dewan-Mohammad-Tasinuzzaman/Portfolio_Website_01" linkName01="Github"
+                link02="" linkName02="" />
             </div>
         </ParallaxLayer>
 
@@ -98,7 +99,7 @@ function ProjectsPage() {
                 relevant="React.js, JavaScript, HTML, CSS, Node.js"
                 link01="https://github.com/Dewan-Mohammad-Tasinuzzaman/Simple-Notes-App" linkName01="Github"
                 link02="" linkName02=""
-                customBlurrerStyling={customBlurrerStyling}
+                customBlurrerStyling={customBlurrerStyling__yellow01}
                 pulserDarken={pulserDarken} />
             </div>
         </ParallaxLayer>
