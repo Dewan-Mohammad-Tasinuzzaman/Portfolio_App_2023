@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Routes>
           {/* Define routes here */}
-          <Route path="portfolio_app_2023/" element={<Home />} />
-          <Route path="portfolio_app_2023/about" element={<About />} />
-          <Route path="portfolio_app_2023/projects" element={<ProjectsPage />} />
-          <Route path="portfolio_app_2023/contacts" element={<ContactsPage />} />
+          <Route path="dewan.dev/" element={<Home />} />
+          <Route path="dewan.dev/about" element={<About />} />
+          <Route path="dewan.dev/projects" element={<ProjectsPage />} />
+          <Route path="dewan.dev/contacts" element={<ContactsPage />} />
         </Routes>
 
         {/* Bottom Nav Bar - Fixed - Stays on Every Page */}
