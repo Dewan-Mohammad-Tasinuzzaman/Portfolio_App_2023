@@ -61,7 +61,7 @@ function About() {
                 speed={1}
                 offset={1}>
                 <div className="about__containerOne">
-                    <h1 className="about__heading-end text-butlerstencil">Dewan Mohammad Tasinuzzaman {currentYear}</h1>
+                    <h1 className="about__heading-end text-butlerstencil">&copy; Dewan Mohammad Tasinuzzaman {currentYear}</h1>
                 </div>
             </ParallaxLayer>
 

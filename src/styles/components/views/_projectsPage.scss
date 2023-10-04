@@ -24,6 +24,31 @@
         letter-spacing: 5px;
     }
 
+    &__heading-end {
+        
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+
+        text-align: center;
+        font-weight: 100;
+        color: #BABABA;
+        font-size: 4rem;
+        letter-spacing: 5px;
+
+        
+        @include respond(laptop-large-1) {
+            margin-top: 20rem !important;
+            margin-top: 10rem !important;
+        }
+
+        @include respond(laptop) {
+            margin-top: 0 !important;
+            margin-top: 0 !important;
+        }
+    }
+
 
 
     &__containerProjects {
@@ -49,11 +74,19 @@
         &_left {
             justify-content: start;
             margin-left: 10rem;
+
+            @include respond(laptop) {
+                margin-left: 0;
+            }
         }
 
         &_right {
             justify-content: end;
             margin-right: 10rem;
+
+            @include respond(laptop) {
+                margin-right: 0;
+            }
         }
     }
       
