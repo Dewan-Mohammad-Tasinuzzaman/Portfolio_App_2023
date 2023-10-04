@@ -16,8 +16,8 @@ function Nav() {
         <li className='navigation__list_items'>
           <Link
             title='Home'
-            className={`navigation__list_items-links navigation__list_items-links--1 ${activeLink === '/' ? 'nav_active_page' : ''}`}
-            to="/"
+            className={`navigation__list_items-links navigation__list_items-links--1 ${activeLink === 'portfolio_app_2023/' ? 'nav_active_page' : ''}`}
+            to="portfolio_app_2023/"
             onClick={() => handleLinkClick('/')}
           >
             <svg className='nav_icons home_icon' width="36" height="50" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,8 +29,8 @@ function Nav() {
         <li className='navigation__list_items'>
           <Link
             title='About'
-            className={`navigation__list_items-links navigation__list_items-links--2 ${activeLink === '/about' ? 'nav_active_page' : ''}`}
-            to="/about"
+            className={`navigation__list_items-links navigation__list_items-links--2 ${activeLink === 'portfolio_app_2023/about' ? 'nav_active_page' : ''}`}
+            to="portfolio_app_2023/about"
             onClick={() => handleLinkClick('/about')}
           >
             <svg className='nav_icons about_icon' width="36" height="50" viewBox="0 0 37 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,8 +42,8 @@ function Nav() {
         <li className='navigation__list_items'>
           <Link
             title='Projects'
-            className={`navigation__list_items-links navigation__list_items-links--3 ${activeLink === '/projects' ? 'nav_active_page' : ''}`}
-            to="/projects"
+            className={`navigation__list_items-links navigation__list_items-links--3 ${activeLink === 'portfolio_app_2023/projects' ? 'nav_active_page' : ''}`}
+            to="portfolio_app_2023/projects"
             onClick={() => handleLinkClick('/projects')}
           >
             <svg className='nav_icons projects_icon' width="36" height="50" viewBox="0 0 36 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,8 +55,8 @@ function Nav() {
         <li className='navigation__list_items'>
           <Link
             title='Contacts'
-            className={`navigation__list_items-links navigation__list_items-links--4 ${activeLink === '/contacts' ? 'nav_active_page' : ''}`}
-            to="/contacts"
+            className={`navigation__list_items-links navigation__list_items-links--4 ${activeLink === 'portfolio_app_2023/contacts' ? 'nav_active_page' : ''}`}
+            to="portfolio_app_2023/contacts"
             onClick={() => handleLinkClick('/contacts')}
           >
             <svg className='nav_icons contact_icon' width="36" height="50" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">

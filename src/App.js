@@ -14,10 +14,10 @@ function App() {
       <Router>
         <Routes>
           {/* Define routes here */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/contacts" element={<ContactsPage />} />
+          <Route path="portfolio_app_2023/" element={<Home />} />
+          <Route path="portfolio_app_2023/about" element={<About />} />
+          <Route path="portfolio_app_2023/projects" element={<ProjectsPage />} />
+          <Route path="portfolio_app_2023/contacts" element={<ContactsPage />} />
         </Routes>
 
         {/* Bottom Nav Bar - Fixed - Stays on Every Page */}
