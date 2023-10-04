@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcd54d6d.css",
-    "main.js": "/static/js/main.ab82a270.js",
+    "main.css": "/static/css/main.331c4362.css",
+    "main.js": "/static/js/main.a358fee7.js",
     "static/js/787.5270f7fd.chunk.js": "/static/js/787.5270f7fd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/portfolio2020_project_image.jpg": "/static/media/portfolio2020_project_image.c0af6a35ceb694c0a9f2.jpg",
-    "static/media/notesapp_project_image.jpg": "/static/media/notesapp_project_image.0b87ee23f6d4a9f23287.jpg",
     "static/media/applystartapp_project_image.jpg": "/static/media/applystartapp_project_image.01f20bd4fa679cde86e3.jpg",
     "static/media/Resume_Dewan_Mohammad_Tasinuzzaman.pdf": "/static/media/Resume_Dewan_Mohammad_Tasinuzzaman.2316402420a4235233d7.pdf",
     "static/media/quizgame_project_image.jpg": "/static/media/quizgame_project_image.0d01cac764d024407019.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/audiowave_project_image.jpg": "/static/media/audiowave_project_image.dc5dd2b5d29ae9697f31.jpg",
+    "static/media/audiowave_project_image.jpg": "/static/media/audiowave_project_image.068dd9f6da6a7e35a4fc.jpg",
     "static/media/about_photo-desktop.jpg": "/static/media/about_photo-desktop.19f73ab8380782f2afaa.jpg",
+    "static/media/portfolio2023_project_image.jpg": "/static/media/portfolio2023_project_image.d111ee016501c341d2c7.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/about_photo-desktop_edit.jpg": "/static/media/about_photo-desktop_edit.919fe764e263c92cb8bf.jpg",
@@ -46,12 +46,12 @@
     "static/media/Butler-Bold.woff2": "/static/media/Butler-Bold.67aacca721444f4e7052.woff2",
     "static/media/pointer_circle.svg": "/static/media/pointer_circle.3c8aabfe088f4d3c516694f464befdf5.svg",
     "index.html": "/index.html",
-    "main.fcd54d6d.css.map": "/static/css/main.fcd54d6d.css.map",
-    "main.ab82a270.js.map": "/static/js/main.ab82a270.js.map",
+    "main.331c4362.css.map": "/static/css/main.331c4362.css.map",
+    "main.a358fee7.js.map": "/static/js/main.a358fee7.js.map",
     "787.5270f7fd.chunk.js.map": "/static/js/787.5270f7fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcd54d6d.css",
-    "static/js/main.ab82a270.js"
+    "static/css/main.331c4362.css",
+    "static/js/main.a358fee7.js"
   ]
 }
