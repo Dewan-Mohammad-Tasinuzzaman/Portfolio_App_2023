@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Dewan-Mohammad-Tasinuzzaman.github.io/portfolio_app_2023",
   "name": "portfolio_app_2023",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^3.0.3"
   }
 }
