@@ -20,19 +20,19 @@ function ContactsPage() {
                         </a>
 
                         <div className="contactsPage__containerOne_content-linksBox--socialsBox">
-                            <a href="https://www.linkedin.com/in/tasin-zaman/" className="contactsPage__containerOne_content-linksBox--socialsBox---link linkedin_hoverClass" title='Email'>
+                            <a href="https://www.linkedin.com/in/tasin-zaman/" target='_blank' className="contactsPage__containerOne_content-linksBox--socialsBox---link linkedin_hoverClass" title='LinkedIn' rel="noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} className="contactsPage__containerOne_content-linksBox--socialsBox---link----icon"></FontAwesomeIcon>
                                 <p className="contactsPage__containerOne_content-linksBox--socialsBox---link----text">LinkedIn</p>
                             </a>
-                            <a href="https://www.instagram.com/tasin.zmn_/" className="contactsPage__containerOne_content-linksBox--socialsBox---link instagram_hoverClass" title='Email'>
+                            <a href="https://www.instagram.com/tasin.zmn_/" target='_blank' className="contactsPage__containerOne_content-linksBox--socialsBox---link instagram_hoverClass" title='Instagram' rel="noreferrer">
                                 <FontAwesomeIcon icon={faInstagramSquare} className="contactsPage__containerOne_content-linksBox--socialsBox---link----icon"></FontAwesomeIcon>
                                 <p className="contactsPage__containerOne_content-linksBox--socialsBox---link----text">Instagram</p>
                             </a>
-                            <a href="https://www.facebook.com/tasin.zaman.10/" className="contactsPage__containerOne_content-linksBox--socialsBox---link facebook_hoverClass" title='Email'>
+                            <a href="https://www.facebook.com/tasin.zaman.10/" target='_blank' className="contactsPage__containerOne_content-linksBox--socialsBox---link facebook_hoverClass" title='Facebook' rel="noreferrer">
                                 <FontAwesomeIcon icon={faFacebookSquare} className="contactsPage__containerOne_content-linksBox--socialsBox---link----icon"></FontAwesomeIcon>
                                 <p className="contactsPage__containerOne_content-linksBox--socialsBox---link----text">Facebook</p>
                             </a>
-                            <a href="https://dribbble.com/zmndesigns" className="contactsPage__containerOne_content-linksBox--socialsBox---link dribble_hoverClass" title='Email'>
+                            <a href="https://dribbble.com/zmndesigns" target='_blank' className="contactsPage__containerOne_content-linksBox--socialsBox---link dribble_hoverClass" title='Dribble' rel="noreferrer">
                                 <FontAwesomeIcon icon={faDribbbleSquare} className="contactsPage__containerOne_content-linksBox--socialsBox---link----icon"></FontAwesomeIcon>
                                 <p className="contactsPage__containerOne_content-linksBox--socialsBox---link----text">Dribble</p>
                             </a>
