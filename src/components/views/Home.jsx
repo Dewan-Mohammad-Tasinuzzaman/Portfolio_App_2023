@@ -60,7 +60,7 @@ function Home() {
         <div className="home__content_textsBox">
           <p className="home__content_textsBox-intro">I'm</p>
           <h1 className="home__content_textsBox-name text-butlerstencil">DEWAN</h1>
-          <h2 className="home__content_textsBox-title">Front-End Developer</h2>
+          <h2 className="home__content_textsBox-title">Computer Science Co-Op Student | Web Dev</h2>
         </div>
 
 
