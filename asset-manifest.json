@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d1ab314.css",
-    "main.js": "/static/js/main.cc522bc7.js",
+    "main.css": "/static/css/main.d243d023.css",
+    "main.js": "/static/js/main.b6644593.js",
     "static/js/787.5270f7fd.chunk.js": "/static/js/787.5270f7fd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/portfolio2020_project_image.jpg": "/static/media/portfolio2020_project_image.c0af6a35ceb694c0a9f2.jpg",
@@ -46,12 +46,12 @@
     "static/media/Butler-Bold.woff2": "/static/media/Butler-Bold.67aacca721444f4e7052.woff2",
     "static/media/pointer_circle.svg": "/static/media/pointer_circle.3c8aabfe088f4d3c516694f464befdf5.svg",
     "index.html": "/index.html",
-    "main.8d1ab314.css.map": "/static/css/main.8d1ab314.css.map",
-    "main.cc522bc7.js.map": "/static/js/main.cc522bc7.js.map",
+    "main.d243d023.css.map": "/static/css/main.d243d023.css.map",
+    "main.b6644593.js.map": "/static/js/main.b6644593.js.map",
     "787.5270f7fd.chunk.js.map": "/static/js/787.5270f7fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d1ab314.css",
-    "static/js/main.cc522bc7.js"
+    "static/css/main.d243d023.css",
+    "static/js/main.b6644593.js"
   ]
 }
