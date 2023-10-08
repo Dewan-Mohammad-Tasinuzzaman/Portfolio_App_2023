@@ -14,9 +14,9 @@ function ContactsPage() {
                 <div className="contactsPage__containerOne_content">
                     <h1 className="contactsPage__containerOne_content-header text-butlerstencil">~ Reach Out ~</h1>
                     <div className="contactsPage__containerOne_content-linksBox">
-                        <a href="mailto:zmn.tasin@gmail.com" className="contactsPage__containerOne_content-linksBox--link" title='Email'>
+                        <a href="mailto:dewanmohammad.tasinuzzaman@ontariotechu.net" className="contactsPage__containerOne_content-linksBox--link" title='Email'>
                             <FontAwesomeIcon icon={faEnvelope} className="contactsPage__containerOne_content-linksBox--link---icon"></FontAwesomeIcon>
-                            <p className="contactsPage__containerOne_content-linksBox--link---text">zmn.tasin@gmail.com</p>
+                            <p className="contactsPage__containerOne_content-linksBox--link---text">dewanmohammad.tasinuzzaman@ontariotechu.net</p>
                         </a>
 
                         <div className="contactsPage__containerOne_content-linksBox--socialsBox">

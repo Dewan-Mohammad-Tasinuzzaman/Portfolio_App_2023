@@ -66,7 +66,7 @@ function Home() {
 
         {/* Group of Links */}
         <div className="home__content_linksBox">
-          <a href="mailto:zmn.tasin@gmail.com" className="home__content_linksBox-link" title='Email'>
+          <a href="mailto:dewanmohammad.tasinuzzaman@ontariotechu.net" className="home__content_linksBox-link" title='Email'>
             <FontAwesomeIcon icon={faEnvelope} className="home__content_linksBox-link--icon"></FontAwesomeIcon>
           </a>
           <a href="https://www.linkedin.com/in/tasin-zaman/" target='_blank' rel="noreferrer" className="home__content_linksBox-link" title='LinkedIn'>
