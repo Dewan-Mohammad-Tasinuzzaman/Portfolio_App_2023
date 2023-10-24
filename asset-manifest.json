@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.ff126aaf.css",
-    "main.js": "/static/js/main.abeed5a9.js",
+    "main.js": "/static/js/main.3242e757.js",
     "static/js/787.5270f7fd.chunk.js": "/static/js/787.5270f7fd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/portfolio2020_project_image.jpg": "/static/media/portfolio2020_project_image.c0af6a35ceb694c0a9f2.jpg",
     "static/media/applystartapp_project_image.jpg": "/static/media/applystartapp_project_image.01f20bd4fa679cde86e3.jpg",
-    "static/media/Resume_Dewan_Mohammad_Tasinuzzaman.pdf": "/static/media/Resume_Dewan_Mohammad_Tasinuzzaman.a59eadbd09e71c45305e.pdf",
+    "static/media/Resume_Dewan_Mohammad_Tasinuzzaman.pdf": "/static/media/Resume_Dewan_Mohammad_Tasinuzzaman.ce527e9af6d34e124188.pdf",
     "static/media/about_photo_two-desktop.jpg": "/static/media/about_photo_two-desktop.0b17440b19436b2f55d7.jpg",
     "static/media/quizgame_project_image.jpg": "/static/media/quizgame_project_image.0d01cac764d024407019.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -47,11 +47,11 @@
     "static/media/pointer_circle.svg": "/static/media/pointer_circle.3c8aabfe088f4d3c516694f464befdf5.svg",
     "index.html": "/index.html",
     "main.ff126aaf.css.map": "/static/css/main.ff126aaf.css.map",
-    "main.abeed5a9.js.map": "/static/js/main.abeed5a9.js.map",
+    "main.3242e757.js.map": "/static/js/main.3242e757.js.map",
     "787.5270f7fd.chunk.js.map": "/static/js/787.5270f7fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff126aaf.css",
-    "static/js/main.abeed5a9.js"
+    "static/js/main.3242e757.js"
   ]
 }
