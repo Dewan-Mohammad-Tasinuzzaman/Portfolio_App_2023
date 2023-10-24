@@ -16,13 +16,18 @@
 
     &__imageOne {
 
-        margin: 0 auto;
+        position: absolute;
+        left: 50%;
         margin-top: 10rem;
         overflow: hidden;
         width: 75rem;
         backface-visibility: hidden;
-        transform: scale(1);
+        transform: translateX(-50%);
         animation: floating_aboutPhoto 4.5s ease-in-out infinite alternate;
+
+        @include respond(phone-small-1) {
+            width: 80rem;
+        }
 
 
         &_img {
@@ -38,9 +43,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-weight: 200;
-        color: #BABABA;
+        color: #ffffff;
         font-size: 6rem;
         letter-spacing: 5px;
+        text-shadow: 0 4px 5px rgba(0, 0, 0, 0.50);
     }
 
     &__heading-end {
@@ -66,7 +72,7 @@
         line-height: 2;
 
         // TOP AND BOTTOM MARGINS
-        margin-top: 30rem !important;
+        margin-top: 35rem !important;
         
         @include respond(phone-small-1) {
             margin-top: 35rem !important;
@@ -80,7 +86,7 @@
         
 
         &_text {
-            font-size: 2rem;
+            font-size: 2.2rem;
             font-weight: 200;
             letter-spacing: 1.5px;
             color: #C6C6C6;
@@ -88,7 +94,7 @@
 
         &_message {
             font-size: 2.4rem;
-            font-weight: 200;
+            font-weight: 300;
             letter-spacing: 1.5px;
             color: #C6C6C6;
             margin-top: 3.5rem;

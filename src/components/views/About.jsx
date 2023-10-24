@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import ImageOne from '../../assets/photos/about_photo-desktop_edit.jpg';
+import ImageOne from '../../assets/photos/about_photo_two-desktop.jpg';
 import Resume from '../../assets/files/Resume_Dewan_Mohammad_Tasinuzzaman.pdf';
 
 function About() {
@@ -48,7 +48,7 @@ function About() {
                 </div>
 
                 <div className="about__intro">
-                    <p className="about__intro_text">I’m currently an international student from Bangladesh studying Computer<br/>Science at Ontario Tech University, in my 4th Year.<br/>I love making cool things!</p>
+                    <p className="about__intro_text">I’m currently an international student from Bangladesh studying Computer<br/>Science at Ontario Tech University in Canada.<br/>I enjoy creating fun, intentional and impactful user experiences.</p>
                     <p className="about__intro_message">Actively looking for Winter and Summer 2024 Co-Op/Internships.</p>
                     
                     <div className="btn-box about__intro_btnBox">

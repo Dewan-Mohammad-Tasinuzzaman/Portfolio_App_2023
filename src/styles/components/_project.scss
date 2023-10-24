@@ -68,8 +68,8 @@
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 2rem;
-        height: 2rem;
+        width: 2.8rem;
+        height: 2.8rem;
         background-color: rgba(255, 255, 255, 0.90);
         border-radius: 50%;
         box-shadow: 0px 6px 10px #1d1d1d30;
@@ -138,11 +138,17 @@
             margin: 2rem 0;
         }
         &_relevant {
-            
+            &-text {
+                font-weight: 600;
+            }
         }
         &_view {
             
             display: flex;
+
+            &-text {
+                font-weight: 600;
+            }
 
             &-link {
                 cursor: pointer;
@@ -177,6 +183,6 @@
 
 
 .pulserDarken {
-    background-color: rgba(73, 73, 73, 0.9);
+    background-color: rgba(32, 32, 32, 0.9);
     animation: pulsatingDark 1.4s ease-in-out infinite alternate !important;
 }

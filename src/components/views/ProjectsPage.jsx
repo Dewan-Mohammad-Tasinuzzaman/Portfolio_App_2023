@@ -22,7 +22,7 @@ function ProjectsPage() {
         <ParallaxLayer
             speed={2}>
             <div className="projectsPage__containerOne">
-                <h1 className="projectsPage__heading-01 text-butlerstencil">Projects...</h1>
+                <h1 className="projectsPage__heading-01 text-butlerstencil">Projects</h1>
             </div>
         </ParallaxLayer>
 
