@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d243d023.css",
-    "main.js": "/static/js/main.97a6f366.js",
+    "main.css": "/static/css/main.ff126aaf.css",
+    "main.js": "/static/js/main.abeed5a9.js",
     "static/js/787.5270f7fd.chunk.js": "/static/js/787.5270f7fd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/portfolio2020_project_image.jpg": "/static/media/portfolio2020_project_image.c0af6a35ceb694c0a9f2.jpg",
     "static/media/applystartapp_project_image.jpg": "/static/media/applystartapp_project_image.01f20bd4fa679cde86e3.jpg",
-    "static/media/Resume_Dewan_Mohammad_Tasinuzzaman.pdf": "/static/media/Resume_Dewan_Mohammad_Tasinuzzaman.cfc6341a6ec726709a11.pdf",
+    "static/media/Resume_Dewan_Mohammad_Tasinuzzaman.pdf": "/static/media/Resume_Dewan_Mohammad_Tasinuzzaman.a59eadbd09e71c45305e.pdf",
+    "static/media/about_photo_two-desktop.jpg": "/static/media/about_photo_two-desktop.0b17440b19436b2f55d7.jpg",
     "static/media/quizgame_project_image.jpg": "/static/media/quizgame_project_image.0d01cac764d024407019.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -15,7 +16,6 @@
     "static/media/portfolio2023_project_image.jpg": "/static/media/portfolio2023_project_image.d111ee016501c341d2c7.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/about_photo-desktop_edit.jpg": "/static/media/about_photo-desktop_edit.919fe764e263c92cb8bf.jpg",
     "static/media/Butler-Light.woff": "/static/media/Butler-Light.0f611ba77f34a9b066c6.woff",
     "static/media/Butler-Medium.woff": "/static/media/Butler-Medium.88165e78b22b1910a690.woff",
     "static/media/Butler-ExtraBold.woff": "/static/media/Butler-ExtraBold.807412182ba5b9eea592.woff",
@@ -46,12 +46,12 @@
     "static/media/Butler-Bold.woff2": "/static/media/Butler-Bold.67aacca721444f4e7052.woff2",
     "static/media/pointer_circle.svg": "/static/media/pointer_circle.3c8aabfe088f4d3c516694f464befdf5.svg",
     "index.html": "/index.html",
-    "main.d243d023.css.map": "/static/css/main.d243d023.css.map",
-    "main.97a6f366.js.map": "/static/js/main.97a6f366.js.map",
+    "main.ff126aaf.css.map": "/static/css/main.ff126aaf.css.map",
+    "main.abeed5a9.js.map": "/static/js/main.abeed5a9.js.map",
     "787.5270f7fd.chunk.js.map": "/static/js/787.5270f7fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d243d023.css",
-    "static/js/main.97a6f366.js"
+    "static/css/main.ff126aaf.css",
+    "static/js/main.abeed5a9.js"
   ]
 }
